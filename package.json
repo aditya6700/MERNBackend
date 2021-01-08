@@ -1,0 +1,30 @@
+{
+  "name": "mernbackend",
+  "version": "1.0.0",
+  "description": "Dynamic website using HTML, CSS, BS4, NodeJS, Express, MongoDB, Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js -e js,hbs",
+    "devStart": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya6700/MERNBackend.git"
+  },
+  "author": "Sai Aditya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditya6700/MERNBackend/issues"
+  },
+  "homepage": "https://github.com/aditya6700/MERNBackend#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.11.10",
+    "validator": "^13.5.2"
+  }
+}
